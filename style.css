@@ -2,4 +2,74 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: #F3EDC8;
+}
+
+/* Navbar section */
+.title {
+    padding: 14px;
+    font-size: 40px;
+    background-color: #BF3131;
+    color: #F3EDC8;
+    text-align: center;
+}
+
+/* Footer section */
+.footer {
+    background-color: #BF3131;
+    color: #F3EDC8;
+    bottom: 0;
+    width: 100%;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+}
+
+.footer a {
+    margin-right: 10px;
+}
+
+.fa-brands {
+    padding-top: 10px;
+}
+
+.p_element{
+    font-size: 18px;
+}
+
+/* Body section */
+.p-body{
+    font-size: 28px;
+    margin-top: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input{
+    width: 330px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid #BF3131;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 14px;
+    width: 180px;
+    height: 50px;
+    font-size: 26px;
+    border-radius: 12px;
+    border: 0px solid;
+    background-color: #BF3131;
+    color: #F3EDC8;
 }
