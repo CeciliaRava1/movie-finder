@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -25,7 +25,7 @@ body{
     padding: 5px;
     text-align: center;
     font-size: 18px;
-    position: fixed;
+    position: static;
 }
 
 .footer a {
@@ -36,23 +36,24 @@ body{
     padding-top: 10px;
 }
 
-.p_element{
+.p_element {
     font-size: 18px;
 }
 
 /* Body section */
-.p-body{
+.p-body {
     font-size: 28px;
     margin-top: 40px;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
 
-input{
+input {
     width: 330px;
     height: 40px;
     text-align: center;
@@ -61,9 +62,10 @@ input{
     border: 1px solid #BF3131;
     margin-bottom: 10px;
     margin-top: 20px;
+    background-color: #F5EDED;
 }
 
-button{
+button {
     margin-top: 14px;
     width: 180px;
     height: 50px;
@@ -72,4 +74,28 @@ button{
     border: 0px solid;
     background-color: #BF3131;
     color: #F3EDC8;
+}
+
+/* Movies section */
+#container-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.movieTarget {
+    max-width: 300px;
+    background-color: #F5EDED;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
