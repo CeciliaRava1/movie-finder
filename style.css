@@ -25,7 +25,7 @@ body {
     padding: 5px;
     text-align: center;
     font-size: 18px;
-    position: static;
+    position: fixed;
 }
 
 .footer a {
